@@ -1,0 +1,128 @@
+/*Números da estação meteorológica*/
+.destaq {
+    color: rgb(13, 110, 253);
+    font-family: sans-serif;
+}
+
+.navbar-brand:hover{
+  color: rgb(13, 110, 253);
+}
+
+/*Quadro I.A */
+.alert-primary {
+  background-color: rgba(13, 110, 253, 0.1);
+  border-color: rgb(13, 110, 253);
+}
+
+.alert-border {
+  border-color: rgb(13, 110, 253);
+}
+.alert-primary h4 {
+  color: rgb(13, 110, 253);
+}
+
+/*Nav Bar */
+
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #4f4f4f;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #1266f1;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/*Zoom quadrados*/
+.zoom {
+  transition: transform .2s; 
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+  z-index: 1000;
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+
+/*CARROSEL*/
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 0rem;
+  }
+}
